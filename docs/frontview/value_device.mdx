@@ -1,0 +1,104 @@
+# Настройка FrontView у устройства занчения
+
+<Warning>Ключ **category** в параметре **config** будет всегда иметь значение **'value'**</Warning>
+
+
+## Поле "keys":
+
+Ключ каждого объекта соответствует ключу, который мы получаем в MQTT. Например, ключ **state** в json идентичен ключу **state**, который мы получаем в MQTT. 
+
+### Заполнение главного ключа:
+
+```json
+"temperature": {
+    "number":0,
+    "label":"Температура",
+    "captionPattern":"{temperature}°C",
+    "iconUrl":"https://hs.k-telecom.org/icons/devices/icon_temperature_m.svg",
+    "showOnCard":true,
+    "hasLimits": true
+},
+```
+
+<Tabs
+  values={[
+    { label: 'number', value: '0' },
+    { label: 'label', value: '1' },
+    { label: 'captionPattern', value: '2' },
+    { label: 'iconUrl', value: '3' },
+    { label: 'showOnCard', value: '4' },
+    { label: 'hasLimits', value: '5' }
+  ]}
+>
+  <TabItem value="0">
+    Данный параметр отвечает за позицию данного ключа на интерфейсе.<br/>
+    <Error>Главный ключ всегда должен иметь номер **0**!</Error>
+  </TabItem>
+  <TabItem value="1">
+    Данный параметр отвечает за.. название параметра, которое отображается рядом со значением в интерфейсе
+  </TabItem>
+  <TabItem value="2">
+    Это паттерн для значения, в фигурных скобках пишется ключ, который туда подставляется и перед или после фигурных скобок пишем, что угодно
+  </TabItem>
+  <TabItem value="3">
+    Ссылка на иконку, которая отображается на карточке
+  </TabItem>
+  <TabItem value="4">
+    Должен ли данный параметр отображаться на карточке устройства
+  </TabItem>
+  <TabItem value="5">
+    Параметр отвечающий за наличие ограничений на данном ключе. 
+  </TabItem>
+</Tabs>
+
+## Заполнение второстепенного ключа:
+
+```json
+"humidity": {
+    "number":1,
+    "label":"Влажность",
+    "captionPattern":"{humidity}%",
+    "iconUrl":"https://hs.k-telecom.org/icons/captions/waterdrop.svg",
+    "showOnCard":true,
+    "hasLimits": true
+}
+```
+
+<Tabs
+  values={[
+    { label: 'number', value: '0' },
+    { label: 'label', value: '1' },
+    { label: 'captionPattern', value: '2' },
+    { label: 'iconUrl', value: '3' },
+    { label: 'showOnCard', value: '4' },
+    { label: 'hasLimits', value: '5' }
+  ]}
+>
+  <TabItem value="0">
+    Данный параметр отвечает за позицию данного ключа на интерфейсе.<br/>
+    <Error>Главный ключ всегда должен иметь номер **0**!</Error>
+  </TabItem>
+  <TabItem value="1">
+    Данный параметр отвечает за.. название параметра, которое отображается рядом со значением в интерфейсе
+  </TabItem>
+  <TabItem value="2">
+    Это паттерн для значения, в фигурных скобках пишется ключ, который туда подставляется и перед или после фигурных скобок пишем, что угодно
+  </TabItem>
+  <TabItem value="3">
+    Ссылка на иконку, которая отображается на карточке
+  </TabItem>
+  <TabItem value="4">
+    Должен ли данный параметр отображаться на карточке устройства
+  </TabItem>
+  <TabItem value="5">
+    Параметр отвечающий за наличие ограничений на данном ключе. 
+  </TabItem>
+</Tabs>
+
+
+### Ключи, которые отображаются на графике
+```json
+"chartKeys": [
+    "voltage", "power"
+]
+```

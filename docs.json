@@ -12,6 +12,7 @@
             ["Устройства действия", "/frontview/action_device"],
             ["Устройства значения", "/frontview/value_device"],
             ["Умные устройства", "/frontview/smart_device"]
+            ["Второстепенные ключи устройства", "/frontview/other_keys"]
         ]],
         ["Архитектура", [
         ]]
