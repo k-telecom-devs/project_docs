@@ -14,6 +14,8 @@
             ["Умные устройства", "/frontview/smart_device"]
         ]],
         ["Архитектура", [
+            ["Файловая структура", "/architecture/files_struct"],
+            ["Архитектура", "/architecture/architecture"]
         ]]
         
     ]
