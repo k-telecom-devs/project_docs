@@ -6,7 +6,9 @@
         { "title": "Homepage", "icon": "house", "link": "https://shokoteam.ru" }
       ],
     "sidebar": [
-        ["Getting Started", "/"],
+        ["API", "/api/"],
+        ["FrontView", "/frontview/"],
+        ["Architecture", "/architecture/architecture"],
         ["FrontView", [
             ["Устройства состояния", "/frontview/state_device"],
             ["Устройства действия", "/frontview/action_device"],
@@ -16,6 +18,9 @@
         ["Архитектура", [
             ["Файловая структура", "/architecture/files_struct"],
             ["Архитектура", "/architecture/architecture"]
+        ]],
+        ["API", [
+            ["Файловая структура", "/api/"]
         ]]
         
     ]

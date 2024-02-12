@@ -1,41 +1,5 @@
-# Данная документация прилагается к мобильному приложению ТеремOk
+# Данная документация прилагается к проекту ТеремOk
 
-## Настройка FrontView:
-## Поле "config":
-Данное поле содержит в себе обобщенные параметры для устройства, а также его категорию.
-
-<Error>
-Важно! В конфиге должны присутствовать все указаные ниже параметры!
-</Error>
-
-```json
-"config": {
-    "hasChart": false,
-    "hasLimits": false,
-    "category": "state"
-}
-```
-<Tabs
-  values={[
-    { label: 'category', value: 'first' },
-    { label: 'hasChart', value: 'second' },
-    { label: 'hasLimits', value: 'third' },
-  ]}
->
-  <TabItem value="first">
-    <Warning>
-    Параметр "category" будет описан в каждом устройстве отдельно 
-    </Warning>
-
-    Параметр с помощью которого происходит идентификация устройства внутри приложения
-  </TabItem>
-  <TabItem value="second">Параметр отвечающий за наличие графика на странице устройства</TabItem>
-  <TabItem value="third">Параметр отвечающий за наличие у устройств пределов главного значения</TabItem>
-
-</Tabs>
-
-
-## Поле "keys":
-Данное поле содержит в себе все ключи устройства, на которые мы должны смотреть в MQTT.
-
-У разных устройств главный ключ заполняется по разному!
+[API](https://docs.page/ShoshiDeveloper/smarthome_docs/api/).
+[Mobile Architecture](https://docs.page/ShoshiDeveloper/smarthome_docs/architecture/architecture).
+[FrontView](https://docs.page/ShoshiDeveloper/smarthome_docs/frontview/).
