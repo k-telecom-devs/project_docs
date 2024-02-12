@@ -1,0 +1,36 @@
+# Аутентификация пользователя
+
+<Accordion title="Регистрация">
+**POST /api/auth/register**
+```json
+{
+ "name":"username",
+ "surname":"usersurname",
+ "patronymic":"userpatronymic",
+ "email":"mikmez01@gmail.com",
+ "password":"Eragysygu",
+ "phone":89999999999,
+ "cityId":"5a7479ca-093e-4a35-8910-1fd3e8528b07",
+ "client":"person"
+}
+```
+</Accordion>
+
+<Accordion title="Авторизация">
+**POST /api/auth/login**
+```json
+{
+ "email":"mikmez01@gmail.com",
+ "password":"123456"
+}
+```
+</Accordion>
+
+<Accordion title="Рефреш">
+**POST /api/auth/refreshToken**
+```json
+{
+ "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJiZTM5YjRlZS0wNmMzLTRlZWEtYWU3YS1kM2JkZWQwMDY5ZWYiLCJqdGkiOiJiY2VhM2EwZi03N2RkLTQ3MzctODgyYi1jZjAzYWFhZjMyMDUiLCJpYXQiOjE2ODQ5MjQzMDAsImV4cCI6MTY4NTUyOTEwMH0.HFwFjDnG8fKGOtIrrfnKxfc0Rim_4nQF-L0zpGmuxZg"
+}
+```
+</Accordion>

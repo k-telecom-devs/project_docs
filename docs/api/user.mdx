@@ -1,0 +1,63 @@
+# Пользователь
+
+<Accordion title="Получить профиль">
+**POST /api/users/profile**
+```json
+    *bearer token*
+```
+</Accordion>
+
+<Accordion title="Изменить профиль">
+**POST /api/users/profile**
+```json
+{
+    "name":"admin"
+    "surname":"admin"
+    "patronymic":"admin"
+    "email":"admin@gmail.com"
+    "auto_updating":true
+    "auto_paying":true
+    "phone":89999999999
+    "cityId":"491405c1-0fcb-4e66-9f63-be0dbe6000c4"
+}
+```
+</Accordion>
+
+<Accordion title="Отправить код изменеиня пароля профиль">
+**POST /api/users/sendCode**
+```json
+*bearer token*
+```
+</Accordion>
+
+<Accordion title="Восстановить забытый пароль">
+**POST /api/users/forgotenPassword**
+```json
+{
+    "email":"some user email"
+}
+```
+</Accordion>
+
+<Accordion title="Восстановить пароль по коду из почты">
+**POST /api/users/resetPassword**
+```json
+*bearer token*
+
+{
+    "password":"newPass",
+    "code":"code from email",
+}
+```
+</Accordion>
+
+<Accordion title="Добавить пуш токен">
+**POST /api/users/setPushToken**
+```json
+*bearer token*
+
+{
+    "token":"myNewToken"
+}
+```
+</Accordion>
