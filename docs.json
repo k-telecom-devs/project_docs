@@ -1,7 +1,7 @@
 {
     "name": "Документация на Teremok",
-    "logo": "assets/logo.png",
-    "logoDark": "assets/logo.png",
+    "logo": "/assets/logo.png",
+    "logoDark": "/assets/logo.png",
     "anchors": [
         { "title": "Homepage", "icon": "house", "link": "https://shokoteam.ru" }
       ],
@@ -20,7 +20,7 @@
             ["Архитектура", "/architecture/architecture"]
         ]],
         ["API", [
-            ["Файловая структура", "/api/"]
+            ["Что-то тут будет", "/api/"]
         ]]
         
     ]
