@@ -1,5 +1,5 @@
 {
-    "name": "Mobile app 'Teremok'",
+    "name": "Документация на Teremok",
     "logo": "assets/logo.png",
     "logoDark": "assets/logo.png",
     "anchors": [
@@ -11,8 +11,7 @@
             ["Устройства состояния", "/frontview/state_device"],
             ["Устройства действия", "/frontview/action_device"],
             ["Устройства значения", "/frontview/value_device"],
-            ["Умные устройства", "/frontview/smart_device"],
-            ["Второстепенные ключи устройства", "/frontview/other_keys"]
+            ["Умные устройства", "/frontview/smart_device"]
         ]],
         ["Архитектура", [
         ]]
