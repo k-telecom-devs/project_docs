@@ -15,6 +15,10 @@
             ["Устройства значения", "/frontview/value_device"],
             ["Умные устройства", "/frontview/smart_device"]
         ]],
+        ["DeviceType", [
+            ["Логгирование", "/device_types/logs"],
+            ["Запись данных с устройства", "/device_types/majors"]
+        ]],
         ["Архитектура", [
             ["Файловая структура", "/architecture/files_struct"],
             ["Архитектура", "/architecture/architecture"]
@@ -23,15 +27,7 @@
             ["Что-то тут будет", "/api/"],
             ["Аутентификация", "/api/auth"],
             ["Пользователь", "/api/user"]
-        ]],
-        ["TEST", [
-            ["something sub", [
-                ["Something govno", "/"]
-            ]],
-            ["something sub2"]
-        ]
-
-        ]
+        ]]
         
     ]
 }
