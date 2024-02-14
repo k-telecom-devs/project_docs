@@ -23,7 +23,15 @@
             ["Что-то тут будет", "/api/"],
             ["Аутентификация", "/api/auth"],
             ["Пользователь", "/api/user"]
-        ]]
+        ]],
+        ["TEST", [
+            ["something sub", [
+                ["Something govno", "/"]
+            ]],
+            ["something sub2"]
+        ]
+
+        ]
         
     ]
 }
