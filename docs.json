@@ -16,6 +16,7 @@
             ["Умные устройства", "/frontview/smart_device"]
         ]],
         ["DeviceType", [
+            ["Базовые параметры", "/device_types/"],
             ["Логгирование", "/device_types/logs"],
             ["Запись данных с устройства", "/device_types/majors"]
         ]],
