@@ -9,6 +9,11 @@
         ["API", "/api/"],
         ["FrontView", "/frontview/"],
         ["Architecture", "/architecture/architecture"],
+        ["Как пользоваться", [
+            ["Содержание", "/how-to-use/index"],
+            ["Вход в аккаунт", "/how-to-use/auth"],
+            ["Дом", "/how-to-use/home"]
+        ]],
         ["FrontView", [
             ["Устройства состояния", "/frontview/state_device"],
             ["Устройства действия", "/frontview/action_device"],
